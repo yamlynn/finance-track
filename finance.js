@@ -12,6 +12,8 @@ let arr = [];
 let sum = 0;
 
 const excess = (spent) => {
+    var elem = document.getElementById('sum')
     sum += ds - db;
-    sum.push(arr);
+    arr.push(sum);
+    
 }
