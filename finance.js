@@ -1,11 +1,17 @@
 
 //daily budget
-var db = 32;
+let db = 32;
 
 //daily spending
-var ds = [];
+let ds = 0;
 
+//past spending
+let arr = [];
 
-const budget = (spent) => {
-	  
+//total spent
+let sum = 0;
+
+const excess = (spent) => {
+    sum += ds - db;
+    sum.push(arr);
 }
